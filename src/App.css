@@ -1,38 +1,201 @@
-.App {
-  text-align: center;
+body .my_root {
+  width: 100vw;
+  height: 100vh;
+  justify-content: left;
+  background-color: #aadaff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.my_root .navbar {
+  z-index: 1;
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  padding: 0 2rem;
+  height: 3.325rem;
+  position: relative;
   align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navbar .menu_bars {
+  width: 4rem;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.menu_bars .bar3 {
+  width: 30%;
+  height: 0.125rem;
+  position: relative;
+  background: #8d9093;
+  display: inline-block;
+  border-radius: 0.25rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.menu_bars:hover > .bar3 {
+  background: black;
+}
+
+.menu_bars .bar_m {
+  margin-bottom: 0.225rem;
+}
+
+.navbar .logo {
+  padding: 0 1rem;
+  line-height: 1.6;
+  color: #8d9093;
+  font-weight: 500;
+  font-size: 1.2rem;
+  border-radius: 0.15rem;
+  border: 1px solid #8d9093;
+}
+
+.navbar .logo:hover {
+  color: black;
+  border: 1px solid black;
+}
+
+.navbar .nav_right {
+  flex: 1 1 auto;
+  text-align: right;
+}
+
+.notify path:hover {
+  color: black;
+}
+
+.nav_right input {
+  font-size: 0.9375rem;
+}
+
+.my_root .main_contain {
+  width: 100%;
+  display: flex;
+  height: calc(100vh - 4rem);
+}
+
+.main_contain .left_side {
+  width: 80%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.left_side #svg2 {
+  width: 95%;
+  height: 95%;
+}
+
+#svg2 path {
+  pointer-events: all;
+  transition: all 2s ease-in-out;
+}
+
+#svg2 path:hover {
+  fill: crimson;
+  transition: all 2s ease-in-out;
+}
+
+#country_name {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 0.5rem;
+  display: inline-block;
+  background: white;
+  position: absolute;
+  height: 10%;
+  width: 10%;
+  z-index: 999;
+}
+
+.main_contain .right_side {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  padding-top: 1rem;
+  align-items: center;
+  margin-top: 0.3125rem;
+  border-radius: 1.25rem;
+  box-sizing: border-box;
+  flex-direction: column;
+  margin-right: 0.3125rem;
+  background-color: #ffffff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.right_side .count_select {
+  height: 6%;
+  width: 80%;
+}
+
+.right_side .country_data {
+  height: 90%;
+  width: 100%;
+  margin-top: 4%;
+}
+
+.country_data .meta_data {
+  width: 100%;
+  padding: 0 2rem;
+  margin: 2rem 0 2rem 0;
+}
+
+.meta_data img {
+  width: 2rem;
+  height: 2rem;
+  object-fit: cover;
+  border-radius: 50%;
+  vertical-align: middle;
+  object-position: center;
+}
+
+.meta_data .country_name {
+  width: calc(100% - 2.8rem);
+  vertical-align: middle;
+  display: inline-block;
+  line-height: 2rem;
+  height: 2rem;
+  margin-left: 0.4rem;
+}
+
+.country_data .count_data {
+  display: flex;
+  padding: 0 2rem;
+  flex-direction: column;
+}
+
+.count_data .display_data {
+  height: 2rem;
+  display: flex;
+  margin: 0.5rem 0;
+  flex-direction: row;
+}
+
+.count_data .track_card {
+  width: 100%;
+  padding: 0.5rem 0;
+  text-align: center;
+  margin-bottom: 1.25rem;
+  border-radius: 0.25rem;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3), 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.track_card h5{
+  margin-bottom: 0.5rem;
+}
+
+#info_div {
+  z-index: 999;
+  width: 20%;
+  height: 20%;
+  position: absolute;
+  background-color: rgba(red, green, blue, 0.5);
+}
+
+body .nameCountry {
+  font-weight: 500;
+  font-size: larger;
+  padding-top: 0.25rem;
+  padding-left: 0.5rem;
 }
