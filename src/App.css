@@ -142,8 +142,8 @@ body .my_root {
 }
 
 .meta_data img {
-  width: 2rem;
-  height: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
   object-fit: cover;
   border-radius: 50%;
   vertical-align: middle;

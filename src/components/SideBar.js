@@ -8,7 +8,7 @@ function SideBar() {
       <CountrySelector />
       <div className="country_data">
         <div className="meta_data">
-          <img src="" alt="" width="200" height="150" />
+          <img src={process.env.PUBLIC_URL + '/img/gfl.svg'} alt="" width="200" height="150" />
           <div className="country_name">
             <h4>Global</h4>
             <small>4th October, 2020</small>
