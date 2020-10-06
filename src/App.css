@@ -154,9 +154,7 @@ body .my_root {
   width: calc(100% - 2.8rem);
   vertical-align: middle;
   display: inline-block;
-  line-height: 2rem;
-  height: 2rem;
-  margin-left: 0.4rem;
+  text-align: center;
 }
 
 .country_data .count_data {
