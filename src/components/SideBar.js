@@ -1,18 +1,46 @@
 import React from "react";
+
 import Card from "./Card";
 import CountrySelector from "./CountrySelector";
 
-function SideBar({maindt}) {
-  console.log(maindt)
+import {data} from './data';
+
+function SideBar() {
+  const [dateData, setDateData] = React.useState('');
+  const [mapData, setMapData] = React.useState([]);
+  const [getCountry, setGetCountry] = React.useState('Global');
+
+  React.useEffect(()=>{
+      async function fetchData(){
+          setMapData(await data.mapdata);
+          setDateData(await data.date)
+      }
+      fetchData();
+      
+  }, [setMapData, setDateData]);
+
+  function handleChange(country){
+      setGetCountry(country);
+  }
+
   return (
     <div className="right_side">
-      <CountrySelector data={maindt}/>
+      <select name="countries" defaultValue="" className="count_select" onChange={(e)=> handleChange(e.target.value)}>
+        <option value="Global">Global</option>
+        {mapData.map((continent, i)=>(<CountrySelector key={i} value={continent.country}/>))}
+      </select>
+     
       <div className="country_data">
         <div className="meta_data">
-          <img src={process.env.PUBLIC_URL + '/img/gfl.svg'} alt="" width="200" height="150" />
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/c/c2/GDJ-World-Flags-Globe.svg"
+            alt=""
+            width="200"
+            height="150"
+          />
           <div className="country_name">
-            <h4>Global</h4>
-            <small>{maindt.date}</small>
+            <h4>{getCountry}</h4>
+            <small>{dateData}</small>
           </div>
         </div>
         <div className="count_data">
