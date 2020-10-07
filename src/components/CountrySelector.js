@@ -1,15 +1,8 @@
 import React from "react";
 
-function CountrySelector({data}) {
-  const [country, setCountry] = React.useState([]);
-
+function CountrySelector(props) {
   return (
-    <select name="countries" id="count_list" className="count_select">
-      <option value="">Global</option>
-      {country.map((county, i) => (
-        <option key={i} value={county}>{county}</option>
-      ))}
-    </select>
+      <option value={props.value}>{props.value}</option>
   );
 }
 
