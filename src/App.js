@@ -1,8 +1,9 @@
 import React from 'react';
-import {NavBar, MainContent} from './components';
-import './App.css';
-import {data} from './components/data';
 
+import './App.css';
+import {NavBar, MainContent} from './components';
+
+import {data} from './components/data';
 
 function App() {
   const [mainData, setMainData] = React.useState({})
@@ -18,7 +19,7 @@ function App() {
   return (
     <div className="my_root">
       <NavBar />
-      <MainContent maindt={mainData}/>
+      <MainContent evdata={mainData}/>
     </div>
   );
 }
