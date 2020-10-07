@@ -2,10 +2,10 @@ import React from "react";
 import Card from "./Card";
 import CountrySelector from "./CountrySelector";
 
-function SideBar() {
+function SideBar(props) {
   return (
     <div className="right_side">
-      <CountrySelector data={}/>
+      <CountrySelector data={props.data}/>
       <div className="country_data">
         <div className="meta_data">
           <img src={process.env.PUBLIC_URL + '/img/gfl.svg'} alt="" width="200" height="150" />
