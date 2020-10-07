@@ -1,5 +1,6 @@
-export const data = { date: "10-05-2020",
-  mapData: [
+export const data = {
+  date: "10-05-2020",
+  mapdata: [
     {
       country: "Afghanistan",
       id: "AF",
@@ -9,7 +10,6 @@ export const data = { date: "10-05-2020",
       deaths: "1466",
       recovered: "32879",
       active: "5077",
-      
     },
     {
       country: "Angola",
@@ -20,7 +20,6 @@ export const data = { date: "10-05-2020",
       deaths: "199",
       recovered: "2591",
       active: "2740",
-      
     },
     {
       country: "Albania",
@@ -31,7 +30,6 @@ export const data = { date: "10-05-2020",
       deaths: "400",
       recovered: "8825",
       active: "5185",
-      
     },
     {
       country: "United Arab Emirates",
@@ -42,7 +40,6 @@ export const data = { date: "10-05-2020",
       deaths: "429",
       recovered: "89410",
       active: "9894",
-      
     },
     {
       country: "Argentina",
@@ -53,7 +50,6 @@ export const data = { date: "10-05-2020",
       deaths: "21468",
       recovered: "649017",
       active: "139243",
-      
     },
     {
       country: "Armenia",
@@ -64,7 +60,6 @@ export const data = { date: "10-05-2020",
       deaths: "984",
       recovered: "44710",
       active: "6983",
-      
     },
     {
       country: "Australia",
@@ -75,7 +70,6 @@ export const data = { date: "10-05-2020",
       deaths: "895",
       recovered: "24890",
       active: "1388",
-      
     },
     {
       country: "Austria",
@@ -86,7 +80,6 @@ export const data = { date: "10-05-2020",
       deaths: "818",
       recovered: "39058",
       active: "9020",
-      
     },
     {
       country: "Azerbaijan",
@@ -97,7 +90,6 @@ export const data = { date: "10-05-2020",
       deaths: "598",
       recovered: "38587",
       active: "1603",
-      
     },
     {
       country: "Burundi",
@@ -108,7 +100,6 @@ export const data = { date: "10-05-2020",
       deaths: "1",
       recovered: "472",
       active: "41",
-      
     },
     {
       country: "Belgium",
@@ -119,7 +110,6 @@ export const data = { date: "10-05-2020",
       deaths: "10078",
       recovered: "19712",
       active: "102413",
-      
     },
     {
       country: "Benin",
@@ -130,7 +120,6 @@ export const data = { date: "10-05-2020",
       deaths: "41",
       recovered: "1973",
       active: "343",
-      
     },
     {
       country: "Burkina Faso",
@@ -141,7 +130,6 @@ export const data = { date: "10-05-2020",
       deaths: "59",
       recovered: "1420",
       active: "705",
-      
     },
     {
       country: "Bangladesh",
@@ -152,7 +140,6 @@ export const data = { date: "10-05-2020",
       deaths: "5375",
       recovered: "283182",
       active: "81575",
-      
     },
     {
       country: "Bulgaria",
@@ -163,7 +150,6 @@ export const data = { date: "10-05-2020",
       deaths: "854",
       recovered: "15179",
       active: "5837",
-      
     },
     {
       country: "Bosnia and Herzegovina",
@@ -174,7 +160,6 @@ export const data = { date: "10-05-2020",
       deaths: "888",
       recovered: "22032",
       active: "5529",
-      
     },
     {
       country: "Belarus",
@@ -185,7 +170,6 @@ export const data = { date: "10-05-2020",
       deaths: "862",
       recovered: "75303",
       active: "4531",
-      
     },
     {
       country: "Belize",
@@ -196,7 +180,6 @@ export const data = { date: "10-05-2020",
       deaths: "30",
       recovered: "1378",
       active: "788",
-      
     },
     {
       country: "Bolivia",
@@ -207,7 +190,6 @@ export const data = { date: "10-05-2020",
       deaths: "8129",
       recovered: "98007",
       active: "30971",
-      
     },
     {
       country: "Brazil",
@@ -218,7 +200,6 @@ export const data = { date: "10-05-2020",
       deaths: "146675",
       recovered: "4397882",
       active: "382678",
-      
     },
     {
       country: "Brunei",
@@ -229,7 +210,6 @@ export const data = { date: "10-05-2020",
       deaths: "3",
       recovered: "142",
       active: "1",
-      
     },
     {
       country: "Bhutan",
@@ -240,7 +220,6 @@ export const data = { date: "10-05-2020",
       deaths: "0",
       recovered: "248",
       active: "51",
-      
     },
     {
       country: "Botswana",
@@ -251,7 +230,6 @@ export const data = { date: "10-05-2020",
       deaths: "16",
       recovered: "710",
       active: "2446",
-      
     },
     {
       country: "Central African Republic",
@@ -262,7 +240,6 @@ export const data = { date: "10-05-2020",
       deaths: "62",
       recovered: "1914",
       active: "2869",
-      
     },
     {
       country: "Canada",
@@ -273,7 +250,6 @@ export const data = { date: "10-05-2020",
       deaths: "9560",
       recovered: "144653",
       active: "17172",
-      
     },
     {
       country: "Switzerland",
@@ -284,7 +260,6 @@ export const data = { date: "10-05-2020",
       deaths: "2078",
       recovered: "45800",
       active: "8054",
-      
     },
     {
       country: "Chile",
@@ -295,7 +270,6 @@ export const data = { date: "10-05-2020",
       deaths: "13036",
       recovered: "443402",
       active: "15257",
-      
     },
     {
       country: "China",
@@ -306,7 +280,6 @@ export const data = { date: "10-05-2020",
       deaths: "4739",
       recovered: "85540",
       active: "373",
-      
     },
     {
       country: "Cote d'Ivoire",
@@ -317,7 +290,6 @@ export const data = { date: "10-05-2020",
       deaths: "120",
       recovered: "19490",
       active: "275",
-      
     },
     {
       country: "Cameroon",
@@ -328,7 +300,6 @@ export const data = { date: "10-05-2020",
       deaths: "420",
       recovered: "19764",
       active: "740",
-      
     },
     {
       country: "Congo (Kinshasa)",
@@ -339,7 +310,6 @@ export const data = { date: "10-05-2020",
       deaths: "274",
       recovered: "10239",
       active: "265",
-      
     },
     {
       country: "Congo (Brazzaville)",
@@ -350,7 +320,6 @@ export const data = { date: "10-05-2020",
       deaths: "89",
       recovered: "3887",
       active: "1113",
-      
     },
     {
       country: "Colombia",
@@ -361,7 +330,6 @@ export const data = { date: "10-05-2020",
       deaths: "26844",
       recovered: "766300",
       active: "69014",
-      
     },
     {
       country: "Costa Rica",
@@ -372,7 +340,6 @@ export const data = { date: "10-05-2020",
       deaths: "987",
       recovered: "49703",
       active: "30439",
-      
     },
     {
       country: "Cuba",
@@ -383,7 +350,6 @@ export const data = { date: "10-05-2020",
       deaths: "123",
       recovered: "5232",
       active: "490",
-      
     },
     {
       country: "Czechia",
@@ -394,7 +360,6 @@ export const data = { date: "10-05-2020",
       deaths: "758",
       recovered: "46636",
       active: "38172",
-      
     },
     {
       country: "Germany",
@@ -405,7 +370,6 @@ export const data = { date: "10-05-2020",
       deaths: "9554",
       recovered: "265624",
       active: "28178",
-      
     },
     {
       country: "Djibouti",
@@ -416,7 +380,6 @@ export const data = { date: "10-05-2020",
       deaths: "61",
       recovered: "5352",
       active: "8",
-      
     },
     {
       country: "Denmark",
@@ -427,7 +390,6 @@ export const data = { date: "10-05-2020",
       deaths: "659",
       recovered: "23577",
       active: "6310",
-      
     },
     {
       country: "Dominican Republic",
@@ -438,7 +400,6 @@ export const data = { date: "10-05-2020",
       deaths: "2144",
       recovered: "90942",
       active: "21968",
-      
     },
     {
       country: "Algeria",
@@ -449,7 +410,6 @@ export const data = { date: "10-05-2020",
       deaths: "1768",
       recovered: "36672",
       active: "13830",
-      
     },
     {
       country: "Ecuador",
@@ -460,7 +420,6 @@ export const data = { date: "10-05-2020",
       deaths: "11681",
       recovered: "120511",
       active: "9147",
-      
     },
     {
       country: "Egypt",
@@ -471,7 +430,6 @@ export const data = { date: "10-05-2020",
       deaths: "5990",
       recovered: "97398",
       active: "393",
-      
     },
     {
       country: "Eritrea",
@@ -482,7 +440,6 @@ export const data = { date: "10-05-2020",
       deaths: "0",
       recovered: "358",
       active: "40",
-      
     },
     {
       country: "Estonia",
@@ -493,7 +450,6 @@ export const data = { date: "10-05-2020",
       deaths: "67",
       recovered: "2755",
       active: "795",
-      
     },
     {
       country: "Ethiopia",
@@ -504,7 +460,6 @@ export const data = { date: "10-05-2020",
       deaths: "1230",
       recovered: "34016",
       active: "44191",
-      
     },
     {
       country: "Finland",
@@ -515,7 +470,6 @@ export const data = { date: "10-05-2020",
       deaths: "346",
       recovered: "8100",
       active: "2256",
-      
     },
     {
       country: "Fiji",
@@ -526,7 +480,6 @@ export const data = { date: "10-05-2020",
       deaths: "2",
       recovered: "28",
       active: "2",
-      
     },
     {
       country: "Gabon",
@@ -537,7 +490,6 @@ export const data = { date: "10-05-2020",
       deaths: "54",
       recovered: "8135",
       active: "619",
-      
     },
     {
       country: "United Kingdom",
@@ -548,7 +500,6 @@ export const data = { date: "10-05-2020",
       deaths: "42459",
       recovered: "2409",
       active: "473354",
-      
     },
     {
       country: "Georgia",
@@ -559,7 +510,6 @@ export const data = { date: "10-05-2020",
       deaths: "54",
       recovered: "4619",
       active: "4023",
-      
     },
     {
       country: "Ghana",
@@ -570,7 +520,6 @@ export const data = { date: "10-05-2020",
       deaths: "303",
       recovered: "46060",
       active: "466",
-      
     },
     {
       country: "Guinea",
@@ -581,7 +530,6 @@ export const data = { date: "10-05-2020",
       deaths: "67",
       recovered: "10161",
       active: "572",
-      
     },
     {
       country: "Gambia",
@@ -592,7 +540,6 @@ export const data = { date: "10-05-2020",
       deaths: "115",
       recovered: "2226",
       active: "1253",
-      
     },
     {
       country: "Guinea-Bissau",
@@ -603,7 +550,6 @@ export const data = { date: "10-05-2020",
       deaths: "40",
       recovered: "1728",
       active: "617",
-      
     },
     {
       country: "Eq. Guinea",
@@ -613,7 +559,6 @@ export const data = { date: "10-05-2020",
       deaths: "83",
       recovered: "4879",
       active: "83",
-      
     },
     {
       country: "Greece",
@@ -624,14 +569,12 @@ export const data = { date: "10-05-2020",
       deaths: "417",
       recovered: "1347",
       active: "18378",
-      
     },
     {
       country: "Greenland",
       id: "GL",
       path:
         "m 887.4,76.3 -26,-0.4 -11.8,0.3 -5,1.3 -11.5,-0.1 -12.7,2.1 -1.6,1.7 6.7,2.1 -6.2,-1.3 -4.5,-0.3 -7,-1.4 -10.6,2.1 -2.7,-1.2 -10.4,0 -10.9,0.6 -8.9,1 -0.2,1.8 -5.3,0.5 -14.6,2.9 -4.6,1.7 8.1,1.5 -2.8,1.6 -14.9,2.2 -15.5,2.2 -2.2,1.7 6.4,2 14.5,1.2 -7.5,0.2 -10.9,1.5 3.8,3.1 3,1.5 9.4,-0.3 10.1,-0.2 7.6,0.3 8,2.9 -1.4,2.1 3.6,1.9 1.4,5.3 1,3.6 1.4,1.9 -7,4.8 2.6,1.3 4.4,-0.8 2.6,1.8 5.3,3.4 -7.5,-1.4 -3.8,0 -3,2.8 -1.5,3.6 4.2,1.8 4,-0.8 2.6,-0.8 5.5,-1.9 -2.8,4.2 -2.6,2.3 -7.1,2 -7,6.3 2,2 -3.4,4 3.7,5.2 -1.5,5 0.7,3.7 4.8,7.1 0.8,5.6 3.1,3.2 8.9,0 5,4.7 6.5,-0.3 4.1,-5.7 3.5,-4.8 -0.3,-4.4 8.6,-4.6 3.3,-3.7 1.4,-3.9 4.7,-3.5 6.5,-1.3 6.1,-1.4 3,-0.2 10.2,-3.9 7.4,-5.7 4.8,-2.1 4.6,-0.1 12.5,-1.8 12.1,-4.3 11.9,-4.6 -5.5,-0.3 -10.6,-0.2 5.3,-2.8 -0.5,-3.6 4.2,3 2.7,2.1 7.3,-1 -0.6,-4.3 -4.5,-3.1 -5,-1.3 2.4,-1.4 7.2,2.1 0.5,-2.3 -4.1,-3.4 5.4,0 5.6,-0.8 1.7,-1.8 -4,-2.1 8.6,-0.3 -4,-4.3 4.1,-0.5 0.1,-4.2 -6.2,-2.5 6.4,-1.6 5.8,-0.1 -3.6,-3.2 1.1,-5.1 3.6,-2.9 4.9,-3.2 -8,-0.2 11.3,-0.7 2.2,-1 14.6,-2.9 -1.6,-1.7 -10,-0.8 -16.9,1.5 -9.2,1.5 4.5,-2.3 -2.3,-1.4 -7,1.2 -9.7,-1.4 -12.1,0.5 -1.4,-0.7 18.3,-0.4 12.9,-0.2 6.6,-1.4 -19.7,-2.9 z",
-      
     },
     {
       country: "Guatemala",
@@ -642,7 +585,6 @@ export const data = { date: "10-05-2020",
       deaths: "3302",
       recovered: "82828",
       active: "8052",
-      
     },
     {
       country: "Guyana",
@@ -653,7 +595,6 @@ export const data = { date: "10-05-2020",
       deaths: "90",
       recovered: "1972",
       active: "1126",
-      
     },
     {
       country: "Honduras",
@@ -664,7 +605,6 @@ export const data = { date: "10-05-2020",
       deaths: "2433",
       recovered: "29768",
       active: "47819",
-      
     },
     {
       country: "Croatia",
@@ -675,7 +615,6 @@ export const data = { date: "10-05-2020",
       deaths: "300",
       recovered: "16031",
       active: "1466",
-      
     },
     {
       country: "Haiti",
@@ -686,7 +625,6 @@ export const data = { date: "10-05-2020",
       deaths: "229",
       recovered: "6992",
       active: "1606",
-      
     },
     {
       country: "Hungary",
@@ -697,7 +635,6 @@ export const data = { date: "10-05-2020",
       deaths: "833",
       recovered: "8165",
       active: "22482",
-      
     },
     {
       country: "Indonesia",
@@ -708,7 +645,6 @@ export const data = { date: "10-05-2020",
       deaths: "11253",
       recovered: "232593",
       active: "63274",
-      
     },
     {
       country: "India",
@@ -719,7 +655,6 @@ export const data = { date: "10-05-2020",
       deaths: "103569",
       recovered: "5662490",
       active: "919023",
-      
     },
     {
       country: "Ireland",
@@ -730,7 +665,6 @@ export const data = { date: "10-05-2020",
       deaths: "1810",
       recovered: "23364",
       active: "13375",
-      
     },
     {
       country: "Iran",
@@ -741,7 +675,6 @@ export const data = { date: "10-05-2020",
       deaths: "27192",
       recovered: "392293",
       active: "56189",
-      
     },
     {
       country: "Iraq",
@@ -752,7 +685,6 @@ export const data = { date: "10-05-2020",
       deaths: "9464",
       recovered: "312158",
       active: "61327",
-      
     },
     {
       country: "Iceland",
@@ -763,7 +695,6 @@ export const data = { date: "10-05-2020",
       deaths: "10",
       recovered: "2300",
       active: "670",
-      
     },
     {
       country: "Israel",
@@ -774,7 +705,6 @@ export const data = { date: "10-05-2020",
       deaths: "1757",
       recovered: "204355",
       active: "66197",
-      
     },
     {
       country: "Italy",
@@ -785,7 +715,6 @@ export const data = { date: "10-05-2020",
       deaths: "36002",
       recovered: "232681",
       active: "58903",
-      
     },
     {
       country: "Jamaica",
@@ -796,7 +725,6 @@ export const data = { date: "10-05-2020",
       deaths: "120",
       recovered: "2635",
       active: "4257",
-      
     },
     {
       country: "Jordan",
@@ -807,7 +735,6 @@ export const data = { date: "10-05-2020",
       deaths: "110",
       recovered: "5292",
       active: "12062",
-      
     },
     {
       country: "Japan",
@@ -818,7 +745,6 @@ export const data = { date: "10-05-2020",
       deaths: "1602",
       recovered: "78063",
       active: "6354",
-      
     },
     {
       country: "Kazakhstan",
@@ -829,7 +755,6 @@ export const data = { date: "10-05-2020",
       deaths: "1725",
       recovered: "103367",
       active: "3204",
-      
     },
     {
       country: "Kenya",
@@ -840,7 +765,6 @@ export const data = { date: "10-05-2020",
       deaths: "735",
       recovered: "27035",
       active: "11679",
-      
     },
     {
       country: "Kyrgyzstan",
@@ -851,7 +775,6 @@ export const data = { date: "10-05-2020",
       deaths: "1066",
       recovered: "43521",
       active: "3048",
-      
     },
     {
       country: "Cambodia",
@@ -862,7 +785,6 @@ export const data = { date: "10-05-2020",
       deaths: "0",
       recovered: "276",
       active: "4",
-      
     },
     {
       country: "Korea, South",
@@ -873,7 +795,6 @@ export const data = { date: "10-05-2020",
       deaths: "422",
       recovered: "22083",
       active: "1734",
-      
     },
     {
       country: "Kuwait",
@@ -884,7 +805,6 @@ export const data = { date: "10-05-2020",
       deaths: "628",
       recovered: "99549",
       active: "7415",
-      
     },
     {
       country: "Laos",
@@ -895,7 +815,6 @@ export const data = { date: "10-05-2020",
       deaths: "0",
       recovered: "22",
       active: "1",
-      
     },
     {
       country: "Lebanon",
@@ -906,7 +825,6 @@ export const data = { date: "10-05-2020",
       deaths: "414",
       recovered: "20243",
       active: "25000",
-      
     },
     {
       country: "Liberia",
@@ -917,7 +835,6 @@ export const data = { date: "10-05-2020",
       deaths: "82",
       recovered: "1236",
       active: "36",
-      
     },
     {
       country: "Libya",
@@ -928,7 +845,6 @@ export const data = { date: "10-05-2020",
       deaths: "596",
       recovered: "22076",
       active: "14765",
-      
     },
     {
       country: "Sri Lanka",
@@ -939,7 +855,6 @@ export const data = { date: "10-05-2020",
       deaths: "13",
       recovered: "3259",
       active: "241",
-      
     },
     {
       country: "Lesotho",
@@ -950,7 +865,6 @@ export const data = { date: "10-05-2020",
       deaths: "39",
       recovered: "926",
       active: "718",
-      
     },
     {
       country: "Lithuania",
@@ -961,7 +875,6 @@ export const data = { date: "10-05-2020",
       deaths: "94",
       recovered: "2497",
       active: "2694",
-      
     },
     {
       country: "Luxembourg",
@@ -972,7 +885,6 @@ export const data = { date: "10-05-2020",
       deaths: "127",
       recovered: "7793",
       active: "1005",
-      
     },
     {
       country: "Latvia",
@@ -983,7 +895,6 @@ export const data = { date: "10-05-2020",
       deaths: "39",
       recovered: "1307",
       active: "780",
-      
     },
     {
       country: "Morocco",
@@ -994,7 +905,6 @@ export const data = { date: "10-05-2020",
       deaths: "2369",
       recovered: "113336",
       active: "18990",
-      
     },
     {
       country: "Moldova",
@@ -1005,7 +915,6 @@ export const data = { date: "10-05-2020",
       deaths: "1375",
       recovered: "41467",
       active: "14059",
-      
     },
     {
       country: "Madagascar",
@@ -1016,7 +925,6 @@ export const data = { date: "10-05-2020",
       deaths: "233",
       recovered: "15601",
       active: "736",
-      
     },
     {
       country: "Mexico",
@@ -1027,7 +935,6 @@ export const data = { date: "10-05-2020",
       deaths: "81877",
       recovered: "670034",
       active: "37869",
-      
     },
     {
       country: "Macedonia",
@@ -1038,7 +945,6 @@ export const data = { date: "10-05-2020",
       deaths: "760",
       recovered: "15487",
       active: "2626",
-      
     },
     {
       country: "Mali",
@@ -1049,7 +955,6 @@ export const data = { date: "10-05-2020",
       deaths: "131",
       recovered: "2482",
       active: "576",
-      
     },
     {
       country: "Burma",
@@ -1060,7 +965,6 @@ export const data = { date: "10-05-2020",
       deaths: "444",
       recovered: "5548",
       active: "12789",
-      
     },
     {
       country: "Montenegro",
@@ -1071,7 +975,6 @@ export const data = { date: "10-05-2020",
       deaths: "182",
       recovered: "8308",
       active: "3869",
-      
     },
     {
       country: "Mongolia",
@@ -1082,7 +985,6 @@ export const data = { date: "10-05-2020",
       deaths: "0",
       recovered: "307",
       active: "8",
-      
     },
     {
       country: "Mozambique",
@@ -1093,7 +995,6 @@ export const data = { date: "10-05-2020",
       deaths: "66",
       recovered: "6104",
       active: "3126",
-      
     },
     {
       country: "Mauritania",
@@ -1104,7 +1005,6 @@ export const data = { date: "10-05-2020",
       deaths: "162",
       recovered: "7204",
       active: "157",
-      
     },
     {
       country: "Malawi",
@@ -1115,7 +1015,6 @@ export const data = { date: "10-05-2020",
       deaths: "180",
       recovered: "4541",
       active: "1073",
-      
     },
     {
       country: "Malaysia",
@@ -1126,7 +1025,6 @@ export const data = { date: "10-05-2020",
       deaths: "137",
       recovered: "10340",
       active: "2336",
-      
     },
     {
       country: "Namibia",
@@ -1137,7 +1035,6 @@ export const data = { date: "10-05-2020",
       deaths: "125",
       recovered: "9451",
       active: "2078",
-      
     },
     {
       country: "Niger",
@@ -1148,7 +1045,6 @@ export const data = { date: "10-05-2020",
       deaths: "69",
       recovered: "1115",
       active: "16",
-      
     },
     {
       country: "Nigeria",
@@ -1159,7 +1055,6 @@ export const data = { date: "10-05-2020",
       deaths: "1113",
       recovered: "50951",
       active: "7401",
-      
     },
     {
       country: "Nicaragua",
@@ -1170,7 +1065,6 @@ export const data = { date: "10-05-2020",
       deaths: "151",
       recovered: "2913",
       active: "2106",
-      
     },
     {
       country: "Netherlands",
@@ -1181,7 +1075,6 @@ export const data = { date: "10-05-2020",
       deaths: "6482",
       recovered: "4492",
       active: "129142",
-      
     },
     {
       country: "Norway",
@@ -1192,7 +1085,6 @@ export const data = { date: "10-05-2020",
       deaths: "275",
       recovered: "11190",
       active: "3140",
-      
     },
     {
       country: "Nepal",
@@ -1203,7 +1095,6 @@ export const data = { date: "10-05-2020",
       deaths: "554",
       recovered: "65202",
       active: "23507",
-      
     },
     {
       country: "New Zealand",
@@ -1214,7 +1105,6 @@ export const data = { date: "10-05-2020",
       deaths: "25",
       recovered: "1790",
       active: "43",
-      
     },
     {
       country: "Oman",
@@ -1225,7 +1115,6 @@ export const data = { date: "10-05-2020",
       deaths: "985",
       recovered: "90600",
       active: "10229",
-      
     },
     {
       country: "Pakistan",
@@ -1236,7 +1125,6 @@ export const data = { date: "10-05-2020",
       deaths: "6523",
       recovered: "300616",
       active: "8588",
-      
     },
     {
       country: "Panama",
@@ -1247,7 +1135,6 @@ export const data = { date: "10-05-2020",
       deaths: "2430",
       recovered: "92423",
       active: "21066",
-      
     },
     {
       country: "Peru",
@@ -1258,7 +1145,6 @@ export const data = { date: "10-05-2020",
       deaths: "32742",
       recovered: "0",
       active: "795427",
-      
     },
     {
       country: "Philippines",
@@ -1269,7 +1155,6 @@ export const data = { date: "10-05-2020",
       deaths: "5840",
       recovered: "273123",
       active: "45799",
-      
     },
     {
       country: "Papua New Guinea",
@@ -1280,7 +1165,6 @@ export const data = { date: "10-05-2020",
       deaths: "7",
       recovered: "527",
       active: "6",
-      
     },
     {
       country: "Poland",
@@ -1291,14 +1175,12 @@ export const data = { date: "10-05-2020",
       deaths: "2659",
       recovered: "73552",
       active: "25869",
-      
     },
     {
       country: "Democratic Republic of Korea",
       id: "KP",
       path:
         "m 1644.7,302.3 0,0 -5.5,-3.6 0.1,3.5 -6.3,2.6 2.7,3.3 -4.6,-0.2 -3.6,-2 -1,4.4 -3.8,3.4 -2.1,4 3.3,1.7 3.4,0.7 0.8,1 0.4,3.5 1.1,1.2 -0.9,0.7 -0.1,2.9 1.9,1 1.6,0.6 0.8,1.2 1.3,-0.5 0,-1.3 3.1,1.3 0.1,-0.6 2.4,0.2 0.7,-2.9 3.5,-0.3 2.1,-0.4 -0.1,-1.6 -4.3,-2.8 -2.6,-1 0.2,-0.7 -1.2,-2.8 1.3,-1.7 2.9,-1 1,-1.9 0.3,-1.1 1.9,-1.4 -2.8,-4.5 0.3,-2.1 0.9,-2 2.2,0.3 0,0 0,0 0,0 -1.4,-1.1 z",
-      
     },
     {
       country: "Portugal",
@@ -1309,7 +1191,6 @@ export const data = { date: "10-05-2020",
       deaths: "2018",
       recovered: "50454",
       active: "27413",
-      
     },
     {
       country: "Paraguay",
@@ -1320,14 +1201,12 @@ export const data = { date: "10-05-2020",
       deaths: "947",
       recovered: "27887",
       active: "15881",
-      
     },
     {
       country: "Palestine",
       id: "PS",
       path:
         "m 1166.9,366.1 -2,-0.9 -0.7,4.3 1.4,0.7 -1.2,0.8 -0.1,1.7 2.4,-0.8 0.6,-1.9 -0.4,-3.9 z",
-      
     },
     {
       country: "Qatar",
@@ -1338,7 +1217,6 @@ export const data = { date: "10-05-2020",
       deaths: "216",
       recovered: "123664",
       active: "2812",
-      
     },
     {
       country: "Romania",
@@ -1349,7 +1227,6 @@ export const data = { date: "10-05-2020",
       deaths: "5048",
       recovered: "108526",
       active: "23917",
-      
     },
     {
       country: "Russia",
@@ -1360,7 +1237,6 @@ export const data = { date: "10-05-2020",
       deaths: "21375",
       recovered: "978610",
       active: "219811",
-      
     },
     {
       country: "Rwanda",
@@ -1371,7 +1247,6 @@ export const data = { date: "10-05-2020",
       deaths: "29",
       recovered: "3226",
       active: "1612",
-      
     },
     {
       country: "Western Sahara",
@@ -1382,7 +1257,6 @@ export const data = { date: "10-05-2020",
       deaths: "1",
       recovered: "8",
       active: "1",
-      
     },
     {
       country: "Saudi Arabia",
@@ -1393,7 +1267,6 @@ export const data = { date: "10-05-2020",
       deaths: "4898",
       recovered: "322055",
       active: "9813",
-      
     },
     {
       country: "Sudan",
@@ -1404,7 +1277,6 @@ export const data = { date: "10-05-2020",
       deaths: "836",
       recovered: "6764",
       active: "6053",
-      
     },
     {
       country: "South Sudan",
@@ -1415,7 +1287,6 @@ export const data = { date: "10-05-2020",
       deaths: "50",
       recovered: "1290",
       active: "1386",
-      
     },
     {
       country: "Senegal",
@@ -1426,7 +1297,6 @@ export const data = { date: "10-05-2020",
       deaths: "312",
       recovered: "12870",
       active: "1940",
-      
     },
     {
       country: "Sierra Leone",
@@ -1437,7 +1307,6 @@ export const data = { date: "10-05-2020",
       deaths: "72",
       recovered: "1706",
       active: "491",
-      
     },
     {
       country: "El Salvador",
@@ -1448,7 +1317,6 @@ export const data = { date: "10-05-2020",
       deaths: "865",
       recovered: "24406",
       active: "4268",
-      
     },
     {
       country: "Serbia",
@@ -1459,7 +1327,6 @@ export const data = { date: "10-05-2020",
       deaths: "756",
       recovered: "0",
       active: "33147",
-      
     },
     {
       country: "Suriname",
@@ -1470,7 +1337,6 @@ export const data = { date: "10-05-2020",
       deaths: "106",
       recovered: "4755",
       active: "93",
-      
     },
     {
       country: "Slovakia",
@@ -1481,7 +1347,6 @@ export const data = { date: "10-05-2020",
       deaths: "55",
       recovered: "4865",
       active: "8572",
-      
     },
     {
       country: "Slovenia",
@@ -1492,7 +1357,6 @@ export const data = { date: "10-05-2020",
       deaths: "156",
       recovered: "4265",
       active: "2103",
-      
     },
     {
       country: "Sweden",
@@ -1503,7 +1367,6 @@ export const data = { date: "10-05-2020",
       deaths: "5895",
       recovered: "0",
       active: "88388",
-      
     },
     {
       country: "Eswantini",
@@ -1514,7 +1377,6 @@ export const data = { date: "10-05-2020",
       deaths: "112",
       recovered: "5141",
       active: "326",
-      
     },
     {
       country: "Syria",
@@ -1525,7 +1387,6 @@ export const data = { date: "10-05-2020",
       deaths: "207",
       recovered: "1168",
       active: "3036",
-      
     },
     {
       country: "Chad",
@@ -1536,7 +1397,6 @@ export const data = { date: "10-05-2020",
       deaths: "86",
       recovered: "1075",
       active: "62",
-      
     },
     {
       country: "Togo",
@@ -1547,7 +1407,6 @@ export const data = { date: "10-05-2020",
       deaths: "48",
       recovered: "1403",
       active: "413",
-      
     },
     {
       country: "Thailand",
@@ -1558,7 +1417,6 @@ export const data = { date: "10-05-2020",
       deaths: "59",
       recovered: "3390",
       active: "151",
-      
     },
     {
       country: "Tajikistan",
@@ -1569,7 +1427,6 @@ export const data = { date: "10-05-2020",
       deaths: "78",
       recovered: "8794",
       active: "1102",
-      
     },
     {
       country: "Turkmenistan",
@@ -1580,7 +1437,6 @@ export const data = { date: "10-05-2020",
       deaths: "0",
       recovered: "0",
       active: "0",
-      
     },
     {
       country: "Timor-Leste",
@@ -1591,7 +1447,6 @@ export const data = { date: "10-05-2020",
       deaths: "0",
       recovered: "28",
       active: "0",
-      
     },
     {
       country: "Tunisia",
@@ -1602,7 +1457,6 @@ export const data = { date: "10-05-2020",
       deaths: "321",
       recovered: "5032",
       active: "16877",
-      
     },
     {
       country: "Turkey",
@@ -1613,7 +1467,6 @@ export const data = { date: "10-05-2020",
       deaths: "8498",
       recovered: "286370",
       active: "31178",
-      
     },
     {
       country: "Taiwan",
@@ -1624,7 +1477,6 @@ export const data = { date: "10-05-2020",
       deaths: "7",
       recovered: "485",
       active: "26",
-      
     },
     {
       country: "Tanzania",
@@ -1635,7 +1487,6 @@ export const data = { date: "10-05-2020",
       deaths: "21",
       recovered: "183",
       active: "305",
-      
     },
     {
       country: "Uganda",
@@ -1646,7 +1497,6 @@ export const data = { date: "10-05-2020",
       deaths: "82",
       recovered: "5078",
       active: "3805",
-      
     },
     {
       country: "Ukraine",
@@ -1657,7 +1507,6 @@ export const data = { date: "10-05-2020",
       deaths: "4530",
       recovered: "104966",
       active: "126833",
-      
     },
     {
       country: "Uruguay",
@@ -1668,7 +1517,6 @@ export const data = { date: "10-05-2020",
       deaths: "48",
       recovered: "1862",
       active: "245",
-      
     },
     {
       country: "United States",
@@ -1679,7 +1527,6 @@ export const data = { date: "10-05-2020",
       deaths: "210181",
       recovered: "2935142",
       active: "4311881",
-      
     },
     {
       country: "Uzbekistan",
@@ -1690,7 +1537,6 @@ export const data = { date: "10-05-2020",
       deaths: "485",
       recovered: "55633",
       active: "2828",
-      
     },
     {
       country: "Venezuela",
@@ -1701,7 +1547,6 @@ export const data = { date: "10-05-2020",
       deaths: "658",
       recovered: "69832",
       active: "8627",
-      
     },
     {
       country: "Vietnam",
@@ -1712,7 +1557,6 @@ export const data = { date: "10-05-2020",
       deaths: "35",
       recovered: "1022",
       active: "40",
-      
     },
     {
       country: "Vanuatu",
@@ -1723,7 +1567,6 @@ export const data = { date: "10-05-2020",
       deaths: "0",
       recovered: "0",
       active: "0",
-      
     },
     {
       country: "Yemen",
@@ -1734,7 +1577,6 @@ export const data = { date: "10-05-2020",
       deaths: "592",
       recovered: "1323",
       active: "126",
-      
     },
     {
       country: "South Africa",
@@ -1745,7 +1587,6 @@ export const data = { date: "10-05-2020",
       deaths: "17016",
       recovered: "615684",
       active: "49515",
-      
     },
     {
       country: "Zambia",
@@ -1756,7 +1597,6 @@ export const data = { date: "10-05-2020",
       deaths: "334",
       recovered: "14306",
       active: "449",
-      
     },
     {
       country: "Zimbabwe",
@@ -1767,7 +1607,6 @@ export const data = { date: "10-05-2020",
       deaths: "228",
       recovered: "6424",
       active: "1246",
-      
     },
     {
       country: "Somalia",
@@ -1778,7 +1617,6 @@ export const data = { date: "10-05-2020",
       deaths: "99",
       recovered: "3010",
       active: "636",
-      
     },
     {
       country: "French Guiana",
@@ -1789,7 +1627,6 @@ export const data = { date: "10-05-2020",
       deaths: "68",
       recovered: "9710",
       active: "279",
-      
     },
     {
       country: "France",
@@ -1800,7 +1637,6 @@ export const data = { date: "10-05-2020",
       deaths: "32096",
       recovered: "80394",
       active: "523611",
-      
     },
     {
       country: "Spain",
@@ -1811,7 +1647,6 @@ export const data = { date: "10-05-2020",
       deaths: "32225",
       recovered: "150376",
       active: "630811",
-      
     },
     {
       country: "Aruba",
@@ -1822,7 +1657,6 @@ export const data = { date: "10-05-2020",
       deaths: "31",
       recovered: "3612",
       active: "451",
-      
     },
     {
       country: "Anguilla",
@@ -1832,7 +1666,6 @@ export const data = { date: "10-05-2020",
       deaths: "0",
       recovered: "3",
       active: "0",
-      
     },
     {
       country: "Andorra",
@@ -1843,7 +1676,6 @@ export const data = { date: "10-05-2020",
       deaths: "53",
       recovered: "1615",
       active: "702",
-      
     },
     {
       country: "Antigua and Barbuda",
@@ -1854,7 +1686,6 @@ export const data = { date: "10-05-2020",
       deaths: "3",
       recovered: "96",
       active: "8",
-      
     },
     {
       country: "Bahamas",
@@ -1865,7 +1696,6 @@ export const data = { date: "10-05-2020",
       deaths: "96",
       recovered: "2375",
       active: "1981",
-      
     },
     {
       country: "Bermuda",
@@ -1876,7 +1706,6 @@ export const data = { date: "10-05-2020",
       deaths: "9",
       recovered: "170",
       active: "2",
-      
     },
     {
       country: "Barbados",
@@ -1887,7 +1716,6 @@ export const data = { date: "10-05-2020",
       deaths: "7",
       recovered: "182",
       active: "11",
-      
     },
     {
       country: "Comoros",
@@ -1898,7 +1726,6 @@ export const data = { date: "10-05-2020",
       deaths: "7",
       recovered: "466",
       active: "14",
-      
     },
     {
       country: "Cabo Verde",
@@ -1909,7 +1736,6 @@ export const data = { date: "10-05-2020",
       deaths: "68",
       recovered: "5524",
       active: "841",
-      
     },
     {
       country: "Cayman Islands",
@@ -1920,7 +1746,6 @@ export const data = { date: "10-05-2020",
       deaths: "1",
       recovered: "210",
       active: "2",
-      
     },
     {
       country: "Dominica",
@@ -1931,7 +1756,6 @@ export const data = { date: "10-05-2020",
       deaths: "0",
       recovered: "24",
       active: "7",
-      
     },
     {
       country: "Falkland Islands",
@@ -1942,7 +1766,6 @@ export const data = { date: "10-05-2020",
       deaths: "0",
       recovered: "13",
       active: "0",
-      
     },
     {
       country: "Faroe Islands",
@@ -1953,7 +1776,6 @@ export const data = { date: "10-05-2020",
       deaths: "0",
       recovered: "441",
       active: "34",
-      
     },
     {
       country: "Grenada",
@@ -1964,7 +1786,6 @@ export const data = { date: "10-05-2020",
       deaths: "0",
       recovered: "24",
       active: "0",
-      
     },
     {
       country: "Hong Kong",
@@ -1975,7 +1796,6 @@ export const data = { date: "10-05-2020",
       deaths: "105",
       recovered: "4864",
       active: "155",
-      
     },
     {
       country: "Saint Kitts and Nevis",
@@ -1986,7 +1806,6 @@ export const data = { date: "10-05-2020",
       deaths: "0",
       recovered: "17",
       active: "2",
-      
     },
     {
       country: "Saint Lucia",
@@ -1997,7 +1816,6 @@ export const data = { date: "10-05-2020",
       deaths: "0",
       recovered: "27",
       active: "0",
-      
     },
     {
       country: "Liechtenstein",
@@ -2008,7 +1826,6 @@ export const data = { date: "10-05-2020",
       deaths: "1",
       recovered: "116",
       active: "10",
-      
     },
     {
       country: "Maldives",
@@ -2019,7 +1836,6 @@ export const data = { date: "10-05-2020",
       deaths: "34",
       recovered: "9427",
       active: "1106",
-      
     },
     {
       country: "Malta",
@@ -2030,7 +1846,6 @@ export const data = { date: "10-05-2020",
       deaths: "39",
       recovered: "2770",
       active: "518",
-      
     },
     {
       country: "Montserrat",
@@ -2040,7 +1855,6 @@ export const data = { date: "10-05-2020",
       deaths: "0",
       recovered: "0",
       active: "0",
-      
     },
     {
       country: "Mauritius",
@@ -2051,7 +1865,6 @@ export const data = { date: "10-05-2020",
       deaths: "10",
       recovered: "357",
       active: "20",
-      
     },
     {
       country: "New Caledonia",
@@ -2062,7 +1875,6 @@ export const data = { date: "10-05-2020",
       deaths: "0",
       recovered: "27",
       active: "0",
-      
     },
     {
       country: "Nauru",
@@ -2073,7 +1885,6 @@ export const data = { date: "10-05-2020",
       deaths: "0",
       recovered: "0",
       active: "0",
-      
     },
     {
       country: "Pitcairn Islands",
@@ -2084,7 +1895,6 @@ export const data = { date: "10-05-2020",
       deaths: "0",
       recovered: "0",
       active: "0",
-      
     },
     {
       country: "Puerto Rico",
@@ -2095,7 +1905,6 @@ export const data = { date: "10-05-2020",
       deaths: "0",
       recovered: "0",
       active: "0",
-      
     },
     {
       country: "French Polynesia",
@@ -2106,7 +1915,6 @@ export const data = { date: "10-05-2020",
       deaths: "9",
       recovered: "1769",
       active: "450",
-      
     },
     {
       country: "Singapore",
@@ -2117,7 +1925,6 @@ export const data = { date: "10-05-2020",
       deaths: "27",
       recovered: "57597",
       active: "195",
-      
     },
     {
       country: "Solomon Is.",
@@ -2128,7 +1935,6 @@ export const data = { date: "10-05-2020",
       deaths: "0",
       recovered: "0",
       active: "0",
-      
     },
     {
       country: "Sao Tome and Principe",
@@ -2139,7 +1945,6 @@ export const data = { date: "10-05-2020",
       deaths: "15",
       recovered: "888",
       active: "10",
-      
     },
     {
       country: "Sint Maarten",
@@ -2149,7 +1954,6 @@ export const data = { date: "10-05-2020",
       deaths: "22",
       recovered: "592",
       active: "72",
-      
     },
     {
       country: "Seychelles",
@@ -2160,7 +1964,6 @@ export const data = { date: "10-05-2020",
       deaths: "0",
       recovered: "143",
       active: "3",
-      
     },
     {
       country: "Turks and Caicos Islands",
@@ -2171,7 +1974,6 @@ export const data = { date: "10-05-2020",
       deaths: "6",
       recovered: "656",
       active: "33",
-      
     },
     {
       country: "Tonga",
@@ -2182,7 +1984,6 @@ export const data = { date: "10-05-2020",
       deaths: "0",
       recovered: "0",
       active: "0",
-      
     },
     {
       country: "Trinidad and Tobago",
@@ -2193,7 +1994,6 @@ export const data = { date: "10-05-2020",
       deaths: "82",
       recovered: "2884",
       active: "1801",
-      
     },
     {
       country: "Saint Vincent and the Grenadines",
@@ -2204,7 +2004,6 @@ export const data = { date: "10-05-2020",
       deaths: "0",
       recovered: "64",
       active: "0",
-      
     },
     {
       country: "British Virgin Islands",
@@ -2215,7 +2014,6 @@ export const data = { date: "10-05-2020",
       deaths: "1",
       recovered: "66",
       active: "4",
-      
     },
     {
       country: "U.S Virgin Islands",
@@ -2226,7 +2024,6 @@ export const data = { date: "10-05-2020",
       deaths: "22",
       recovered: "0",
       active: "1302",
-      
     },
     {
       country: "Cyprus",
@@ -2237,7 +2034,6 @@ export const data = { date: "10-05-2020",
       deaths: "22",
       recovered: "1369",
       active: "456",
-      
     },
     {
       country: "Reunion",
@@ -2248,7 +2044,6 @@ export const data = { date: "10-05-2020",
       deaths: "16",
       recovered: "3360",
       active: "952",
-      
     },
     {
       country: "Mayotte",
@@ -2259,7 +2054,6 @@ export const data = { date: "10-05-2020",
       deaths: "42",
       recovered: "2964",
       active: "886",
-      
     },
     {
       country: "Martinique",
@@ -2270,7 +2064,6 @@ export const data = { date: "10-05-2020",
       deaths: "21",
       recovered: "98",
       active: "1424",
-      
     },
     {
       country: "Guadeloupe",
@@ -2281,7 +2074,6 @@ export const data = { date: "10-05-2020",
       deaths: "57",
       recovered: "2199",
       active: "3272",
-      
     },
     {
       country: "Curaco",
@@ -2292,7 +2084,6 @@ export const data = { date: "10-05-2020",
       deaths: "0",
       recovered: "0",
       active: "0",
-      
     },
     {
       country: "Canary Islands",
@@ -2303,7 +2094,6 @@ export const data = { date: "10-05-2020",
       deaths: "0",
       recovered: "0",
       active: "0",
-      
     },
   ],
 };
