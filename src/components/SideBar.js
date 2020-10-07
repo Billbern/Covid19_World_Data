@@ -5,7 +5,7 @@ import CountrySelector from "./CountrySelector";
 function SideBar() {
   return (
     <div className="right_side">
-      <CountrySelector />
+      <CountrySelector data={}/>
       <div className="country_data">
         <div className="meta_data">
           <img src={process.env.PUBLIC_URL + '/img/gfl.svg'} alt="" width="200" height="150" />
