@@ -2,11 +2,11 @@ import React from 'react';
 import Map from './Map';
 import SideBar from './SideBar';
 
-function MainContent(){
+function MainContent({maindt}){
     return(
         <div className="main_contain">
             <Map />
-            <SideBar />
+            <SideBar maindt={maindt}/>
         </div>
     );
 }

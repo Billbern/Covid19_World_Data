@@ -2,16 +2,17 @@ import React from "react";
 import Card from "./Card";
 import CountrySelector from "./CountrySelector";
 
-function SideBar(props) {
+function SideBar({maindt}) {
+  console.log(maindt)
   return (
     <div className="right_side">
-      <CountrySelector data={props.data}/>
+      <CountrySelector data={maindt}/>
       <div className="country_data">
         <div className="meta_data">
           <img src={process.env.PUBLIC_URL + '/img/gfl.svg'} alt="" width="200" height="150" />
           <div className="country_name">
             <h4>Global</h4>
-            <small>4th October, 2020</small>
+            <small>{maindt.date}</small>
           </div>
         </div>
         <div className="count_data">

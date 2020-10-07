@@ -9,7 +9,7 @@ function App() {
 
   React.useEffect(() => {
     async function fetchData() {
-      setMainData( await data.mapData);
+      setMainData( await data);
     }
 
     fetchData();
@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="my_root">
       <NavBar />
-      <MainContent data={mainData}/>
+      <MainContent maindt={mainData}/>
     </div>
   );
 }
